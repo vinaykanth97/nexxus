@@ -1885,4 +1885,53 @@ p:last-child {
   .section-7 .cont-sec-r {
     align-self: auto;
   }
+  .l-side-nav::before {
+    content: "";
+  }
+  .l-side-nav {
+    display: block;
+    position: fixed;
+    top: 95px;
+    background: #fff;
+    width: 100%;
+    z-index: 22;
+    height: auto;
+    overflow: auto;
+    padding: 10px 0;
+    margin: 0;
+  }
+  .side-nav {
+    display: flex;
+    max-height: initial;
+    height: auto;
+    max-width: initial;
+    flex-direction: row;
+    width: 1000px;
+  }
+  .side-nav li {
+    flex: 1;
+  }
+  .l-side-nav br {
+    display: none;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+    height: 2px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 }

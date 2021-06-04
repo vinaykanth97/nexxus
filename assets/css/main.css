@@ -1915,7 +1915,7 @@ p:last-child {
     display: none;
   }
   ::-webkit-scrollbar {
-    width: 5px;
+    width: 0;
     border-radius: 10px;
     height: 2px;
   }
@@ -1933,5 +1933,14 @@ p:last-child {
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
+  }
+  .section-3 .cont-sec-l {
+    margin: 0;
+  }
+  .upper-spacing {
+    padding: 20px 0 0 0;
+  }
+  .section-4 .cont-sec-r {
+    margin: 0;
   }
 }

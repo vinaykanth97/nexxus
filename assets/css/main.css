@@ -1619,7 +1619,7 @@ p {
   overflow: hidden;
 }
 .brand-overall img {
-  max-width: 100%;
+  max-width: 25%;
   width: 100%;
   cursor: pointer;
   margin: 0 15px 0 0;
@@ -1960,6 +1960,10 @@ p:last-child {
 }
 .cont-sec-l p {
   margin: 0 0 10px 0;
+  /* font-size: 18px; */
+}
+.section-3 .cont-sec-l p {
+  font-size: 16px;
 }
 .section-5 .swiper-container img {
   margin-right: 20px;
@@ -2006,8 +2010,9 @@ p:last-child {
   margin-top: 35px;
 }
 .section-7 .contact-info h4 {
-  color: #797979;
-  margin: 0px 0px 15px 0px;
+  color: #0c0c0c;
+  margin: 0px 0px 5px 0px;
+  font-weight: bold;
 }
 .section-7 .contact-info p {
   margin-top: 0;

@@ -1943,4 +1943,7 @@ p:last-child {
   .section-4 .cont-sec-r {
     margin: 0;
   }
+  .outer-nav > li {
+    font-size: 14px;
+  }
 }
